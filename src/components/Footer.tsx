@@ -1,5 +1,6 @@
 
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -55,19 +56,25 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-white/80 hover:text-primary transition-colors">Home</a>
+                <Link to="/" className="text-white/80 hover:text-primary transition-colors">Home</Link>
               </li>
               <li>
-                <a href="#about" className="text-white/80 hover:text-primary transition-colors">About</a>
+                <a href="/#about" className="text-white/80 hover:text-primary transition-colors">About</a>
               </li>
               <li>
-                <a href="#services" className="text-white/80 hover:text-primary transition-colors">Services</a>
+                <a href="/#services" className="text-white/80 hover:text-primary transition-colors">Services</a>
               </li>
               <li>
-                <a href="#projects" className="text-white/80 hover:text-primary transition-colors">Portfolio</a>
+                <a href="/#projects" className="text-white/80 hover:text-primary transition-colors">Portfolio</a>
               </li>
               <li>
-                <a href="#contact" className="text-white/80 hover:text-primary transition-colors">Contact</a>
+                <Link to="/experience" className="text-white/80 hover:text-primary transition-colors">Experience</Link>
+              </li>
+              <li>
+                <Link to="/education" className="text-white/80 hover:text-primary transition-colors">Education</Link>
+              </li>
+              <li>
+                <a href="/#contact" className="text-white/80 hover:text-primary transition-colors">Contact</a>
               </li>
             </ul>
           </div>
