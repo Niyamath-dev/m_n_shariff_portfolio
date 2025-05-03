@@ -24,12 +24,12 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold text-primary">
-            Portfolio<span className="text-foreground">.</span>
+            MN Shariff<span className="text-foreground">.</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="hover-underline py-1 text-foreground/80 hover:text-foreground transition-colors">Home</Link>
+            <a href="/" className="hover-underline py-1 text-foreground/80 hover:text-foreground transition-colors">Home</a>
             <a href="/#about" className="hover-underline py-1 text-foreground/80 hover:text-foreground transition-colors">About</a>
             <a href="/#services" className="hover-underline py-1 text-foreground/80 hover:text-foreground transition-colors">Services</a>
             <a href="/#projects" className="hover-underline py-1 text-foreground/80 hover:text-foreground transition-colors">Projects</a>

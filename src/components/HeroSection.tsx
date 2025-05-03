@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <p className="text-primary font-medium">Hello, I'm</p>
+            <p className="text-primary font-medium">Hello, I'm Mohammed Niyamathulla Shariff</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Creative <span className="text-gradient">Digital Expert</span>
             </h1>
@@ -34,7 +34,7 @@ const HeroSection = () => {
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 bg-primary rounded-full w-24 h-24 flex items-center justify-center text-white font-bold text-xl">
-                10+ YRS
+                3+ YRS
               </div>
             </div>
             <div className="absolute -z-0 top-10 -right-10 w-80 h-80 bg-accent/20 rounded-full blur-3xl"></div>

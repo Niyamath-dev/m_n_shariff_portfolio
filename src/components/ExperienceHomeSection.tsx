@@ -8,15 +8,15 @@ const ExperienceHomeSection = () => {
   const experiences = [
     {
       id: 1,
-      title: "WordPress Developer",
-      company: "Digital Solutions Inc.",
-      period: "2020 - Present",
+      title: "Web Developer",
+      company: "ChampSoft Technologies (Pvt) Ltd",
+      period: "2024 - Present",
       description: "Led development of custom WordPress themes and plugins for enterprise clients."
     },
     {
       id: 2,
-      title: "UI/UX Designer",
-      company: "Creative Agency",
+      title: "Web Developer",
+      company: "Insueta Technologies (Pvt) Ltd",
       period: "2018 - 2020",
       description: "Designed user-centered interfaces for websites and applications."
     }
