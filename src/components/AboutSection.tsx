@@ -8,13 +8,13 @@ const AboutSection = () => {
     "Plugin Development",
     "WooCommerce Integration",
     "UI/UX Design",
-    "Wireframing & Prototyping",
-    "User Research",
     "Responsive Design",
     "SEO Optimization",
-    "Social Media Marketing",
-    "Email Campaigns",
-    "Analytics & Reporting"
+    "Cloud Computing (AWS)",
+    "Database Management",
+    "RESTful API Integration",
+    "Version Control (Git, SVN)",
+    "Agile Methodology"
   ];
 
   return (
@@ -33,7 +33,7 @@ const AboutSection = () => {
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg">
                 <div className="text-primary font-heading font-bold">
                   <div className="text-xs uppercase tracking-wider text-foreground/70">Experience</div>
-                  <div className="text-4xl">10+</div>
+                  <div className="text-4xl">3+</div>
                   <div className="text-sm">Years</div>
                 </div>
               </div>
@@ -43,14 +43,14 @@ const AboutSection = () => {
           <div className="md:w-1/2 space-y-6">
             <div>
               <h2 className="text-primary text-lg font-medium">About Me</h2>
-              <h3 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Dedicated WordPress Developer & Digital Marketing Specialist</h3>
+              <h3 className="text-3xl md:text-4xl font-bold mt-2 mb-4">WordPress Developer & Digital Marketing Specialist</h3>
             </div>
             
             <p className="text-muted-foreground">
-              With over 10 years of experience, I specialize in creating exceptional digital experiences
-              through expert WordPress development, intuitive UI/UX design, and strategic digital marketing.
-              My mission is to help businesses establish a powerful online presence that converts visitors
-              into loyal customers.
+              Experienced Web Developer with 3+ years of expertise in custom WordPress development, responsive design, and
+              creating user-centric digital solutions. Proficient in HTML5, CSS3, JavaScript, PHP, and UI/UX design tools like
+              Figma/Adobe XD. Skilled in SEO optimization using SEMrush, GA, and GSC. Certified in Cloud Computing and
+              DevOps with extensive AWS hosting management experience.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">

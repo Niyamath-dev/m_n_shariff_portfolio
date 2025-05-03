@@ -8,24 +8,24 @@ const Education = () => {
   const educations = [
     {
       id: 1,
-      degree: "Master's in Web Development",
-      institution: "Technology University",
-      period: "2015 - 2017",
-      description: "Specialized in advanced web technologies and development methodologies. Completed thesis on optimizing WordPress performance for enterprise applications."
+      degree: "Bachelor of Computer Applications (BCA)",
+      institution: "International Institute of Business Studies",
+      period: "Jun 2018 - Sep 2022",
+      description: "Specialization in Computer Science with focus on programming fundamentals, UI/UX design principles, and web development technologies. Graduated with comprehensive knowledge in HTML, CSS, JavaScript, and other core web technologies."
     },
     {
       id: 2,
-      degree: "Bachelor's in Computer Science",
-      institution: "Digital Arts College",
-      period: "2011 - 2015",
-      description: "Focused on programming fundamentals, UI/UX design principles, and digital marketing strategies. Graduated with honors."
+      degree: "Cloud Computing & DevOps Certification",
+      institution: "Intellipaat (Accredited by IBM & Microsoft)",
+      period: "Feb 2023 - Sep 2023",
+      description: "Professional certification in Cloud Computing and DevOps technologies with extensive focus on AWS hosting management experience, security practices, and infrastructure optimization."
     },
     {
       id: 3,
-      degree: "Certificate in Digital Marketing",
-      institution: "Online Marketing Institute",
-      period: "2016",
-      description: "Comprehensive training in SEO, content marketing, social media strategies, and analytics. Completed with distinction."
+      degree: "Various Technical Certifications",
+      institution: "Online Learning Platforms",
+      period: "2020 - Present",
+      description: "Continuous professional development through various online courses and certifications in WordPress development, WooCommerce integration, plugin development, UI/UX design principles, SEO optimization techniques, and digital marketing strategies."
     }
   ];
 
@@ -39,7 +39,7 @@ const Education = () => {
               Academic <span className="text-gradient">Background</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl">
-              My educational journey that has shaped my expertise in WordPress development, design, and digital marketing.
+              My educational journey that has shaped my expertise in WordPress development, UI/UX design, and digital marketing.
             </p>
 
             <div className="space-y-8 mt-12">

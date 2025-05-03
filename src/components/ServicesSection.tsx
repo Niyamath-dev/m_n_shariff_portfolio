@@ -13,7 +13,7 @@ const ServicesSection = () => {
         "Plugin Integration & Customization",
         "E-commerce Solutions with WooCommerce",
         "Performance Optimization",
-        "Website Maintenance & Support"
+        "Database Management (MySQL)"
       ]
     },
     {
@@ -21,11 +21,11 @@ const ServicesSection = () => {
       title: "UI/UX Design",
       description: "User-centered design solutions that create intuitive, engaging digital experiences for your audience.",
       features: [
-        "User Research & Persona Development",
         "Wireframing & Prototyping",
-        "Visual Design & Branding",
+        "Visual Design using Figma/Adobe XD",
         "Responsive Design Systems",
-        "Usability Testing & Iteration"
+        "User-centered Design Principles",
+        "Accessibility Standards"
       ]
     },
     {
@@ -33,11 +33,11 @@ const ServicesSection = () => {
       title: "Digital Marketing",
       description: "Strategic marketing solutions that increase visibility, drive quality traffic, and boost conversions.",
       features: [
-        "SEO Optimization",
-        "Content Marketing Strategy",
-        "Social Media Management",
-        "Email Marketing Campaigns",
-        "Analytics & Performance Reporting"
+        "SEO Optimization with SEMrush",
+        "Google Analytics & Search Console",
+        "Workflow Automation with Make.com",
+        "API Integrations",
+        "Performance Reporting"
       ]
     }
   ];

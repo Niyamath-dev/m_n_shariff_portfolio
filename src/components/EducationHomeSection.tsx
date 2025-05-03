@@ -8,17 +8,17 @@ const EducationHomeSection = () => {
   const educations = [
     {
       id: 1,
-      degree: "Master's in Web Development",
-      institution: "Technology University",
-      period: "2015 - 2017",
-      description: "Specialized in advanced web technologies and development methodologies."
+      degree: "Bachelor of Computer Applications (BCA)",
+      institution: "International Institute of Business Studies",
+      period: "Jun 2018 - Sep 2022",
+      description: "Specialization in Computer Science with focus on programming fundamentals and design principles."
     },
     {
       id: 2,
-      degree: "Bachelor's in Computer Science",
-      institution: "Digital Arts College",
-      period: "2011 - 2015",
-      description: "Focused on programming fundamentals, UI/UX design principles, and digital marketing strategies."
+      degree: "Cloud Computing & DevOps Certification",
+      institution: "Intellipaat (IBM & Microsoft Accredited)",
+      period: "Feb 2023 - Sep 2023",
+      description: "Professional certification in Cloud Computing and DevOps technologies with AWS focus."
     }
   ];
 
