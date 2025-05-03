@@ -9,10 +9,10 @@ const HeroSection = () => {
           <div className="space-y-6 animate-fade-in">
             <p className="text-primary font-medium">Hello, I'm</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Mohammed <span className="text-gradient">Niyamathulla Shariff</span>
+              Creative <span className="text-gradient">Digital Expert</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-md">
-              Experienced Web Developer with 3+ years specializing in WordPress Development, UI/UX Design, and Digital Marketing strategies.
+              Specialist in WordPress Development, UI/UX Design, and Digital Marketing strategies that drive results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button size="lg" className="font-medium">
@@ -34,7 +34,7 @@ const HeroSection = () => {
                 />
               </div>
               <div className="absolute -bottom-5 -right-5 bg-primary rounded-full w-24 h-24 flex items-center justify-center text-white font-bold text-xl">
-                3+ YRS
+                10+ YRS
               </div>
             </div>
             <div className="absolute -z-0 top-10 -right-10 w-80 h-80 bg-accent/20 rounded-full blur-3xl"></div>
