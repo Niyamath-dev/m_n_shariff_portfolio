@@ -10,14 +10,14 @@ const ExperienceHomeSection = () => {
       id: 1,
       title: "Web Developer",
       company: "ChampSoft Technologies (Pvt) Ltd",
-      period: "2024 - Present",
+      period: "Jun 2024 - Present",
       description: "Led development of custom WordPress themes and plugins for enterprise clients."
     },
     {
       id: 2,
       title: "Web Developer",
       company: "Insueta Technologies (Pvt) Ltd",
-      period: "2018 - 2020",
+      period: "Apr 2023 - Jun 2024",
       description: "Designed user-centered interfaces for websites and applications."
     }
   ];

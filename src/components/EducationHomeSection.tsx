@@ -8,17 +8,17 @@ const EducationHomeSection = () => {
   const educations = [
     {
       id: 1,
-      degree: "Master's in Web Development",
-      institution: "Technology University",
-      period: "2015 - 2017",
-      description: "Specialized in advanced web technologies and development methodologies."
+      degree: "Bachelor of Computer Applications (BCA)",
+      institution: "International Institute of Business Studies (IIBS)",
+      period: "Jun 2018 - Sep 2022",
+      // description: "Specialized in advanced web technologies and development methodologies."
     },
     {
       id: 2,
-      degree: "Bachelor's in Computer Science",
-      institution: "Digital Arts College",
-      period: "2011 - 2015",
-      description: "Focused on programming fundamentals, UI/UX design principles, and digital marketing strategies."
+      degree: "Higher Secondary (12th Grade)",
+      institution: "International Institute of Business Studies (IIBS)",
+      period: "2018",
+      // description: "Focused on programming fundamentals, UI/UX design principles, and digital marketing strategies."
     }
   ];
 
@@ -59,7 +59,7 @@ const EducationHomeSection = () => {
                     <p className="text-muted-foreground">{edu.institution}</p>
                   </div>
                 </div>
-                <p className="mb-4">{edu.description}</p>
+                {/* <p className="mb-4">{edu.description}</p> */}
                 <div className="flex items-center text-muted-foreground text-sm">
                   <Book className="h-4 w-4 mr-2" />
                   <span>{edu.period}</span>

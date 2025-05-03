@@ -8,24 +8,21 @@ const Education = () => {
   const educations = [
     {
       id: 1,
-      degree: "Master's in Web Development",
-      institution: "Technology University",
-      period: "2015 - 2017",
-      description: "Specialized in advanced web technologies and development methodologies. Completed thesis on optimizing WordPress performance for enterprise applications."
+      degree: "Bachelor of Computer Applications (BCA)",
+      institution: "International Institute of Business Studies (IIBS)",
+      period: "Jun 2018 - Sep 2022",
     },
     {
       id: 2,
-      degree: "Bachelor's in Computer Science",
-      institution: "Digital Arts College",
-      period: "2011 - 2015",
-      description: "Focused on programming fundamentals, UI/UX design principles, and digital marketing strategies. Graduated with honors."
+      degree: "Higher Secondary (12th Grade)",
+      institution: "International Institute of Business Studies (IIBS)",
+      period: "2018",
     },
     {
       id: 3,
-      degree: "Certificate in Digital Marketing",
-      institution: "Online Marketing Institute",
+      degree: "Secondary (10th Grade)",
+      institution: "R.T. Nagar Education Trust High School",
       period: "2016",
-      description: "Comprehensive training in SEO, content marketing, social media strategies, and analytics. Completed with distinction."
     }
   ];
 
@@ -57,9 +54,9 @@ const Education = () => {
                       </div>
                     </div>
                   </CardHeader>
-                  <CardContent>
+                  {/* <CardContent>
                     <p className="text-muted-foreground">{edu.description}</p>
-                  </CardContent>
+                  </CardContent> */}
                 </Card>
               ))}
             </div>
