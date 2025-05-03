@@ -1,31 +1,41 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase, Calendar, CheckSquare } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 
 const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: "WordPress Developer",
-      company: "Digital Solutions Inc.",
-      period: "2020 - Present",
-      description: "Led development of custom WordPress themes and plugins for enterprise clients. Improved site performance by 40% through optimization techniques. Implemented WooCommerce solutions for e-commerce projects."
+      title: "Web Developer",
+      company: "ChampSoft Technologies (Pvt) Ltd",
+      period: "2024 - Present",
+      description: "Led development of custom WordPress themes and plugins for enterprise clients.",
+      responsibilities: [
+        "Developed and maintained WordPress websites for multiple clients",
+        "Created custom WordPress themes and plugins using PHP, HTML, CSS, and JavaScript",
+        "Collaborated with design team to implement responsive web designs",
+        "Optimized website performance and loading speeds",
+        "Provided technical support and maintenance for existing websites"
+      ],
+      technologies: ["WordPress", "PHP", "JavaScript", "HTML/CSS", "MySQL", "Git"]
     },
     {
       id: 2,
-      title: "UI/UX Designer",
-      company: "Creative Agency",
+      title: "Web Developer",
+      company: "Insueta Technologies (Pvt) Ltd",
       period: "2018 - 2020",
-      description: "Designed user-centered interfaces for websites and applications. Created wireframes, prototypes, and mockups using Figma. Conducted user research and usability testing to optimize user experiences."
-    },
-    {
-      id: 3,
-      title: "Digital Marketing Specialist",
-      company: "Marketing Solutions",
-      period: "2016 - 2018",
-      description: "Managed SEO campaigns resulting in 60% increase in organic traffic. Implemented social media strategies across multiple platforms. Created and optimized content for various digital marketing channels."
+      description: "Designed user-centered interfaces for websites and applications.",
+      responsibilities: [
+        "Designed and developed responsive web applications using modern frameworks",
+        "Implemented user interface designs according to client requirements",
+        "Collaborated with cross-functional teams to deliver high-quality web solutions",
+        "Conducted regular testing and debugging to ensure optimal site performance",
+        "Participated in client meetings to understand project requirements"
+      ],
+      technologies: ["React.js", "JavaScript", "HTML/CSS", "Bootstrap", "REST APIs"]
     }
   ];
 
@@ -39,26 +49,68 @@ const Experience = () => {
               Professional <span className="text-gradient">Experience</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl">
-              My journey through various roles in WordPress development, UI/UX design, and digital marketing.
+              My journey through various roles in web development and design.
             </p>
 
-            <div className="space-y-8 mt-12">
+            <div className="space-y-12 mt-12">
               {experiences.map((exp) => (
-                <Card key={exp.id} className="bg-card hover:shadow-lg transition-all duration-300">
-                  <CardHeader>
+                <Card key={exp.id} className="bg-card hover:shadow-lg transition-all duration-300 overflow-hidden">
+                  <CardHeader className="bg-secondary/30">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                      <div>
-                        <CardTitle className="text-2xl">{exp.title}</CardTitle>
-                        <CardDescription className="text-lg">{exp.company}</CardDescription>
+                      <div className="flex items-start gap-3">
+                        <div className="p-2 rounded-full bg-primary/10 text-primary mt-1">
+                          <Briefcase className="h-5 w-5" />
+                        </div>
+                        <div>
+                          <CardTitle className="text-2xl">{exp.title}</CardTitle>
+                          <CardDescription className="text-lg">{exp.company}</CardDescription>
+                        </div>
                       </div>
-                      <div className="flex items-center text-primary">
+                      <div className="flex items-center text-primary font-medium">
                         <Calendar className="h-5 w-5 mr-2" />
                         <span>{exp.period}</span>
                       </div>
                     </div>
                   </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">{exp.description}</p>
+                  <CardContent className="pt-6">
+                    <div className="mb-6">
+                      <h3 className="text-lg font-medium mb-3">Overview</h3>
+                      <p className="text-muted-foreground">{exp.description}</p>
+                    </div>
+                    
+                    <div className="mb-6">
+                      <h3 className="text-lg font-medium mb-3">Key Responsibilities</h3>
+                      <ul className="space-y-2">
+                        {exp.responsibilities.map((resp, index) => (
+                          <li key={index} className="flex items-start gap-2">
+                            <CheckSquare className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                            <span>{resp}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h3 className="text-lg font-medium mb-3">Technologies Used</h3>
+                      <Table>
+                        <TableBody>
+                          <TableRow>
+                            <TableCell className="py-2 px-0">
+                              <div className="flex flex-wrap gap-2">
+                                {exp.technologies.map((tech, index) => (
+                                  <span 
+                                    key={index} 
+                                    className="px-3 py-1 bg-secondary rounded-full text-sm"
+                                  >
+                                    {tech}
+                                  </span>
+                                ))}
+                              </div>
+                            </TableCell>
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
                   </CardContent>
                 </Card>
               ))}
