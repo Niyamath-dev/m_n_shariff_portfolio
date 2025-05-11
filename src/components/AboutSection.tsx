@@ -30,7 +30,7 @@ const AboutSection = () => {
                   className="w-full h-full object-cover mix-blend-overlay opacity-90"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg">
+              <div className="absolute -bottom-6 -right-2 bg-white p-4 rounded-xl shadow-lg">
                 <div className="text-primary font-heading font-bold">
                   <div className="text-xs uppercase tracking-wider text-foreground/70">Experience</div>
                   <div className="text-4xl">3+</div>
