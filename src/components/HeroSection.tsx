@@ -33,7 +33,7 @@ const HeroSection = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="res-cls absolute -bottom-5 -right-3 bg-primary rounded-full w-24 h-24 flex items-center justify-center text-white font-bold text-xl">
+              <div className="absolute -bottom-5 -right-5 bg-primary rounded-full w-24 h-24 flex items-center justify-center text-white font-bold text-xl">
                 3+ YRS
               </div>
             </div>
