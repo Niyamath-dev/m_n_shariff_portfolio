@@ -1,7 +1,11 @@
 
 import { Button } from "@/components/ui/button";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const HeroSection = () => {
+  // Use custom hook to determine if the view is mobile
+  const isMobile = useIsMobile();
+
   return (
     <section id="home" className="min-h-screen flex items-center pt-16 pb-20 bg-gradient-to-b from-secondary/50 to-background">
       <div className="container-custom">
@@ -33,7 +37,8 @@ const HeroSection = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="res-cls absolute -bottom-5 -right-3 bg-primary rounded-full w-24 h-24 flex items-center justify-center text-white font-bold text-xl">
+              <div className="absolute -bottom-5 -right-3 bg-primary rounded-full 
+                w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center text-white font-bold text-lg sm:text-xl">
                 3+ YRS
               </div>
             </div>
