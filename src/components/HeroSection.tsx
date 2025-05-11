@@ -33,7 +33,8 @@ const HeroSection = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-5 -right-5 bg-primary rounded-full w-24 h-24 flex items-center justify-center text-white font-bold text-xl">
+              {/* Fixed the experience badge to be responsive */}
+              <div className="absolute -bottom-5 -right-5 bg-primary rounded-full w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 flex items-center justify-center text-white font-bold text-sm sm:text-base md:text-xl">
                 3+ YRS
               </div>
             </div>
